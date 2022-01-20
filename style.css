@@ -1,0 +1,57 @@
+/*
+.container {
+  display: flex;
+  flex-direction: row | row-reverse | column | column-reverse;
+  flex-wrap: nowrap | wrap | wrap-reverse;
+  flex-flow: column wrap;
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+  align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
+
+
+}
+
+.item {
+  order: 5;
+  flex-grow: 4;
+  flex-shrink: 3;
+  flex-basis:  | auto;
+  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+}
+*/
+body {
+  width: 100%
+}
+
+.full-screenContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+
+.main-window {
+  width: 80%;
+}
+
+/*
+.header-image {
+  width: 100%;
+}
+*/
+
+.image-style {
+  width: 100%;
+}
+
+.header-container {
+  width: 100%;
+  display: flex;
+}
+
+.header {
+  flex-grow: 1;
+}
+
+.author-date {
+  width: 20%;
+}
